@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+ <class name="PaymentDetailsBauTransferFees" table="paymentdetailsbautransferfees">
+
+<meta attribute="class-description"> This describes the PaymentDetailsBauTransfer class</meta>
+<id name="id" column="id" type="int"></id>
+<property name="apikeyid" column="apikeyid" type="int"></property>
+
+<property name="merchantreference" column="merchantreference" type="string"></property>
+
+<property name="country" column="country" type="string"></property>
+
+<property name="amount" column="amount" type="double"></property>
+
+<property name="currency" column="currency" type="string"></property>
+
+<property name="debitaccount" column="debitaccount" type="string"></property>
+
+<property name="creditaccount" column="creditaccount" type="string"></property>
+
+<property name="narration" column="narration" type="string"></property>
+
+<property name="timein" column="timein" type="date"></property>
+
+<property name="trandatetime" column="trandatetime" type="string"></property>
+
+<property name="responsecode" column="responsecode" type="string"></property>
+
+<property name="responsemessage" column="responsemessage" type="string"></property>
+
+<property name="timeout" column="timeout" type="date"></property>
+
+
+<property name="transactiontype" column="transactiontype" type="string"></property>
+
+<property name="processingcode" column="processingcode" type="string"></property>
+
+<property name="valuedate" column="valuedate" type="string"></property>
+
+<property name="revoriginalstan" column="revoriginalstan" type="string"></property>
+
+
+<property name="revoriginaldatetime" column="revoriginaldatetime" type="string"></property>
+
+</class>
+
+</hibernate-mapping>
+
+	
+	
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+<class name="PaymentDetailsBauTransferFees" table="paymentdetailsbautransferfees">
+
+
+<meta attribute="class-description"> This describes the PaymentDetailsBauTransferFees class</meta>
+<id name="id" column="id" type="int"></id>
+
+<property name="transferid" column="transferid" type="string"></property>
+<property name="debitaccount" column="debitaccount" type="string"></property>
+<property name="creditaccount" column="creditaccount" type="string"></property>
+<property name="amount" column="amount" type="double"></property>
+<property name="timestamp" column="timestamp" type="date"></property>
+
+</class>
+
+</hibernate-mapping>
+
+
