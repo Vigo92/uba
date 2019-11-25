@@ -6,9 +6,9 @@
         
          
        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/database?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">Ijeoma92?!</property>
+        <property name="hibernate.connection.url">u0zbt18wwjva9e0v.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/uu21ydyol293aat9</property>
+        <property name="hibernate.connection.username">sc9bejw40ajpxcri</property>
+        <property name="hibernate.connection.password">bwl1zdm6x7p1z2ct</property>
         <property name="hibernate.connection.pool_size">1</property>
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.show_sql">true</property>
